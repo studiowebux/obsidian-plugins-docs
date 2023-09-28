@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[2366],{5218:e=>{e.exports=JSON.parse('{"title":"Types","description":"Types","slug":"/category/types","permalink":"/docs/category/types","navigation":{"previous":{"title":"CSV File","permalink":"/docs/findoc/csv-file"},"next":{"title":"Types","permalink":"/docs/findoc/types/"}}}')}}]);
