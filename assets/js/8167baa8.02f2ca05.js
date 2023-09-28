@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[9446],{1220:n=>{n.exports=JSON.parse('{"title":"Financial Doc","description":"Documentation for Financial Doc Plugin","slug":"/category/financial-doc","permalink":"/docs/category/financial-doc","navigation":{"next":{"title":"Features","permalink":"/docs/findoc/features"}}}')}}]);
