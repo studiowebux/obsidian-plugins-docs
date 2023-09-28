@@ -11,15 +11,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://yetanothertool.com/",
+  url: "https://studiowebux.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/obsidian-plugins-docs/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Studio Webux", // Usually your GitHub org/user name.
-  projectName: "Obsidian Plugins", // Usually your repo name.
+  organizationName: "studiowebux", // Usually your GitHub org/user name.
+  projectName: "obsidian-plugins-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
