@@ -1,6 +1,6 @@
 {
-  "label": "Financial Doc",
-  "position": 1,
+  "label": "[PLUGIN] Financial Doc",
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "Documentation for Financial Doc Plugin"

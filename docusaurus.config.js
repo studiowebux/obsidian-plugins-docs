@@ -14,7 +14,7 @@ const config = {
   url: "https://studiowebux.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/obsidian-plugins-docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo.png",
       navbar: {
         title: "Studio Webux Plugins",
         logo: {
@@ -70,9 +70,9 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "documentationSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Documentation",
           },
           {
             href: "https://www.webuxlab.com/",
@@ -80,7 +80,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/studiowebux/",
+            href: "https://github.com/studiowebux/obsidian-plugins-docs",
             label: "GitHub",
             position: "right",
           },
