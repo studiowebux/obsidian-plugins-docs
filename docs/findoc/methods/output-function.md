@@ -13,5 +13,7 @@ The available output methods include:
 - **Generate Sum Dataset Per Types**
 - **Generate Cumulative Sum Dataset**
 - **Generate Cumulative Sum Dataset Per Types**
+- **Generate Sum**
+- **Generate Difference**
 - **Get Last Value Per Type For Current Month**
   - _Please note_ this output method has been tested with the report view only

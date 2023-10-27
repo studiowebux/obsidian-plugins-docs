@@ -51,26 +51,55 @@ You can easily edit the duplicated values to update them with the correct inform
 
 Use the "Use Last Element as Template" option when you need to enter a series of similar or related data entries. For example, when inputting records of customers or products with common attributes.
 
+### Minimum character(s) to match
+
+Use the "Minimum characters to Match" option when you want to type more character before opening the dropdown menu with the autocomplete feature enabled.
+
+### Categories (former Types)
+
+Create, Update or Delete Categories to fit your needs.
+
+:::caution
+Be sure to remove all associations with a **Category** before removing it.
+:::
+
 ### Models
 
 The "Models" option provides a list of all available data models, which serve as the foundation for preparing and rendering datasets. These models define the structure and characteristics of the data, guiding how it is processed and displayed. You can update various parameters within these models to add or remove data types and refine the processing functions.
 
 Models available :
 
-- Expenses
-- ExpensesMonthly
-- Portfolio
-- Income Yearly
-- Income
-- All
-- Mortgage
-- Mortgage Rate
-- Dividend
-- Portfolio Report
-- Cumulative Sum
-- Cumulative Sum Per Types
+See [Models](./models)
 
 You can create a feature request in Github to [request new model](https://github.com/yet-another-tool/obsidian-findoc/issues/new), or open a [PR](https://github.com/yet-another-tool/obsidian-findoc/pulls) with your own model.
+
+**Data Source key**
+
+Column to use when preparing the raw data. Modify this value exclusively when employing the `Split By` method for the data source.
+
+For Example, you want to prepare the data using the content in the **Extra** Column, instead of the default **Timestamp**.
+
+**Output**
+
+The function used to generate the **chart** or **report**, _see the models for detailled example for that one._
+
+**Chart Label Types**
+
+You can edit the label shown in the chart using this option.
+
+**Suffix**
+
+Optional _Suffix_, only used when the **chart label type** is set to **"custom"**
+
+**Categories**
+
+List of Categories to include and to add in the **chart** or **report**.
+
+**Values**
+
+A comma delimited list to determine values, this one is only used to do difference and sum.
+
+See the [generateDifference](./models/incomeMinusExpensesByYearMonth) for a detailled example.
 
 ### Colors
 

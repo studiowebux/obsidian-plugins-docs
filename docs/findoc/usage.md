@@ -14,7 +14,7 @@ When it comes to usage, there are two main aspects to consider:
 Here are the key features and functionalities of the system:
 
 - **Add a New Row:** You have the ability to easily add a new row to the dataset. For quicker data entry, you can also utilize the ["Use Last Element as Template"](./configuration.md#use-last-element-as-template) feature to duplicate the last row.
-- **Entry Type Selection:** The system includes a dropdown menu that allows you to select the type of entry you're adding, enhancing data categorization.
+- **Auto Category Selection:** The system includes a dropdown menu that allows you to select the category of entry you're adding, enhancing data categorization.
 - **Duplicate Rows:** You can duplicate rows when needed, which can be particularly useful for copying similar data entries.
 - **Reorder Rows:** The flexibility to reorder rows provides control over the arrangement of data within the dataset.
 - **Autocomplete:** There's an autocomplete feature that accelerates the process of filling in identifiers, making data entry more efficient.

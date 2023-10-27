@@ -14,3 +14,5 @@ The available data source methods include:
   - The dataset is divided using the **"YYYY-MM-DD"** format, resulting in a list of data points for each corresponding time period.
 - **Split By Year**
   - The dataset is divided using the **"YYYY"** format, resulting in a list of data points for each corresponding time period.
+- **Split By**
+  - Configurable _key_, can be one of : **Category**, **SubCategory**, **Value**, **Timestamp**, **Extra**
