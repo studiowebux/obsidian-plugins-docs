@@ -28,13 +28,19 @@ portfolioReport: {
 filename: ./data.csv
 model: portfolioReport
 title: Portfolio
-type: report
+view: report
 date: 2023-10-01
+```
+
+```findoc
+filename: ./data.csv
+model: portfolioReport
+title: Portfolio
+view: report
+date: 2023-08-01
 ```
 ````
 
 ## Screenshot
 
-TODO: Currently broken in V0.6.0.
-
-<!-- ![Portfolio Report](/img/models/portfolioReport.png) -->
+![Portfolio Report](/img/models/portfolioReport.png)
