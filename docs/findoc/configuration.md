@@ -69,7 +69,7 @@ The "Models" option provides a list of all available data models, which serve as
 
 Models available :
 
-See [Models](./models)
+See [Models](./models/intro)
 
 You can create a feature request in Github to [request new model](https://github.com/yet-another-tool/obsidian-findoc/issues/new), or open a [PR](https://github.com/yet-another-tool/obsidian-findoc/pulls) with your own model.
 
