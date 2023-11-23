@@ -28,6 +28,10 @@ Provided By Spotify Developer API. [See more details here](./spotify)
 
 Provided By Spotify Developer API. [See more details here](./spotify)
 
+### Redirect URI
+
+This value is hardcoded in the plugin and must be : `obsidian://spotify-auth/`
+
 ### State
 
 A secret that will be utilized for your authentication, and it can be any word or phrase of your choosing. Around 10 characters is enough.
