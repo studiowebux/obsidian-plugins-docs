@@ -8,6 +8,7 @@
 6. Head to **Settings**.
 7. Copy the **Client Id** from the _Spotify Link Plugin_ settings in Obsidian.md.
 8. Copy the **Client Secret** from the _Spotify Link Plugin_ settings in Obsidian.md.
-9. That's it!
+9. Use `obsidian://spotify-auth/` for the **redirect URI**
+10. That's it!
 
 The first time you connect, you'll be prompted to grant permission for linking this application. After that, you're all set to go!
