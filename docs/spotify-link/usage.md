@@ -15,3 +15,7 @@ sidebar_position: 6
 2. Search for `Append Spotify Currently Playing Track with Timestamp`
    - _You can also create a Hotkey binding_
 3. Voila !
+
+## Custom Template
+
+See [Custom Template Process](./custom-template)
