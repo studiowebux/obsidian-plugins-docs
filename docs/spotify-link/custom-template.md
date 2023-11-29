@@ -27,6 +27,9 @@ To generate a personalized template, follow these steps:
 - `{{ album_cover_large }}`
 - `{{ album_cover_medium }}`
 - `{{ album_cover_small }}`
+- `{{ album_cover_link_large }}`
+- `{{ album_cover_link_medium }}`
+- `{{ album_cover_link_small }}`
 - `{{ album_link }}`
 - `{{ artists }}`
 - `{{ timestamp }}` => This one prints the current datetime
@@ -43,6 +46,18 @@ _Text:_
 
 ```text
 '{{ song_name }}' by {{ artists }} from {{ album }} released in {{ album_release }}\n{{ timestamp }}
+```
+
+```markdown
+**Song Name:** {{ song_name }}
+**Song URL:** {{ song_link }}
+**Album Name:** {{ album }}
+**Album Release Date:** {{ album_release }}
+**Album URL:** {{ album_link }}
+**Cover:** {{ album_cover_medium }}
+**Cover URL:** {{ album_cover_link_medium }}
+**Artists:** {{ artists }}
+**Added at:** _{{ timestamp }}_
 ```
 
 _Table:_
