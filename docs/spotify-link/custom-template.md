@@ -21,8 +21,13 @@ To generate a personalized template, follow these steps:
 **Available Variables**
 
 - `{{ song_name }}`
+- `{{ song_link }}`
 - `{{ album }}`
 - `{{ album_release }}`
+- `{{ album_cover_large }}`
+- `{{ album_cover_medium }}`
+- `{{ album_cover_small }}`
+- `{{ album_link }}`
 - `{{ artists }}`
 - `{{ timestamp }}` => This one prints the current datetime
 
@@ -30,7 +35,7 @@ To generate a personalized template, follow these steps:
 
 - This template automatically inserts a double line break (`\n\n`) at the end of your template.
 - Utilize Markdown to define your template.
-- The plugin does not filter or sanitize your inputs. 
+- The plugin does not filter or sanitize your inputs.
 
 **Examples**
 
