@@ -204,6 +204,15 @@ Release V0.6.0 includes breaking changes, so here is the default configuration. 
       "chartLabelType": "money",
       "dataSourceKey": "timestamp",
       "values": "Expenses, House Expenses"
+    },
+    "incomeMinusExpensesByDaily": {
+      "dataSource": "splitDailyDates",
+      "categories": ["Income", "Expenses"],
+      "output": "generateCumulativeDifference",
+      "beginAtZero": true,
+      "chartLabelType": "money",
+      "dataSourceKey": "timestamp",
+      "values": "Income, Expenses" // Yield: Income - Expenses
     }
   },
   "colors": [

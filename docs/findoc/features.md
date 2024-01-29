@@ -13,3 +13,4 @@ sidebar_position: 1
 - Support Desktop and Mobile (Tested on Windows, MacOS and Iphone)
 - Using [Chart.js](https://www.chartjs.org)
 - Create Reports using the CSV file
+- Create new CSV File directly in [Obsidian.md](https://obsidian.md)
