@@ -222,6 +222,33 @@ Release V0.6.0 includes breaking changes, so here is the default configuration. 
       "chartLabelType": "money",
       "dataSourceKey": "timestamp",
       "values": ""
+    },
+    "expensesOnlyMonthly": {
+      "dataSource": "splitByYearMonth",
+      "categories": ["House Expenses", "Expenses"],
+      "output": "generateSumDataSet",
+      "beginAtZero": true,
+      "chartLabelType": "money",
+      "dataSourceKey": "timestamp",
+      "values": ""
+    },
+    "expensesOnlyDaily": {
+      "dataSource": "splitDailyDates",
+      "categories": ["House Expenses", "Expenses"],
+      "output": "generateSumDataSet",
+      "beginAtZero": true,
+      "chartLabelType": "money",
+      "dataSourceKey": "timestamp",
+      "values": ""
+    },
+    "expensesOnlyYearly": {
+      "dataSource": "splitByYear",
+      "categories": ["House Expenses", "Expenses"],
+      "output": "generateSumDataSet",
+      "beginAtZero": true,
+      "chartLabelType": "money",
+      "dataSourceKey": "timestamp",
+      "values": ""
     }
   },
   "colors": [

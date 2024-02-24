@@ -42,6 +42,6 @@ Here are the available options that you can use within the system:
 
 - **filename (Mandatory)**: This option specifies the CSV file(s) to load. You can load one or multiple files, and they will be processed in the order they are defined. You must use a comma to specify multiple files.
 - **model (Mandatory)**: This option determines the data [model](./configuration.md#models) to use for processing the data.
-- **view (Optional)**: Use this option to select the view type. You can choose between "report" (which generates a table, still a work in progress) or "chart" for visual representations. If not defined, it produces a "chart", it is also possible to use "pie" to generate a pie chart.
+- **view (Optional)**: Use this option to select the view type. You can choose between "report" (which generates a table, still a work in progress) or "chart" for visual representations. If not defined, it produces a "chart", it is also possible to use "pie" to generate a pie chart. Now supports "radar" charts.
 - **date (Conditional)**: This option is specifically used when the "report" view is selected.
 - **title (Optional)**: You can use this option to automatically add a title to the chart, simplifying the process of labeling and identifying the output.
