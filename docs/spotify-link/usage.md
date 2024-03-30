@@ -12,7 +12,7 @@ sidebar_position: 6
 ## Within a note
 
 1. Open the **Command Palette** (`Command + p` on MacOS)
-2. Search for `Append Spotify Currently Playing Track with Timestamp`
+2. Search for `Append Spotify Currently Playing Track with Timestamp` or `Append Spotify Currently Playing Episode with Timestamp`
    - _You can also create a Hotkey binding_
 3. Voila !
 

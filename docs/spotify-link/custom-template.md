@@ -9,16 +9,17 @@ To generate a personalized template, follow these steps:
 1. Access the **Settings** tab.
 2. Navigate to the **Templates** section.
 3. Specify the desired output utilizing the provided variables.
-4. Execute the Obsidian Command `append-currently-playing-track-using-template` (Hotkeys configuration is also an option).
+4. Execute the Obsidian Command `append-currently-playing-track-using-template` or `append-currently-playing-episode-using-template` (Hotkeys configuration is also an option).
 5. Your note will display the customized template, populating information sourced from Spotify.
 
 :::info
 
 **Note**: This plugin is built around the **_currently playing track_** and may not retrieve all available data. If there are missing elements, you can request them through a Github Issue.
+Starting v1.2.0 it supports both **track** and **episode**.
 
 :::
 
-**Available Variables**
+**Available Variables for Songs**
 
 - `{{ song_name }}`
 - `{{ song_link }}`
@@ -33,6 +34,27 @@ To generate a personalized template, follow these steps:
 - `{{ album_link }}`
 - `{{ artists }}`
 - `{{ timestamp }}` => This one prints the current datetime
+
+**Available Variables for Podcasts**
+
+- `{{ episode_name }}`
+- `{{ episode_link }}`
+- `{{ description }}`
+- `{{ duration_ms }}`
+- `{{ audio_preview_url }}`
+- `{{ episode_cover_large }}`
+- `{{ episode_cover_medium }}`
+- `{{ episode_cover_small }}`
+- `{{ episode_cover_link_large }}`
+- `{{ episode_cover_link_medium }}`
+- `{{ episode_cover_link_small }}`
+- `{{ release_date }}`
+- `{{ show_name }}`
+- `{{ publisher }}`
+- `{{ show_description }}`
+- `{{ show_link }}`
+- `{{ total_episodes }}`
+- `{{ timestamp }}"` => This one prints the current datetime
 
 **Notes**
 
@@ -77,4 +99,10 @@ _CSV:_
 
 ```csv
 {{ song_name }};{{ artists }};{{ album }};{{ album_release }};{{ timestamp }};
+```
+
+```md
+**Episode Name:** {{ episode_name }}
+**Description:** {{ description }}
+**Added at:** _{{ timestamp }}_
 ```
